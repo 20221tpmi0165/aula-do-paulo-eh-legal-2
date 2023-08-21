@@ -1,0 +1,4 @@
+dolar=float(input("quantos dolares você tem? "))
+real=float(input("informe o valor do dolar em real: "))
+cambio=dolar * real
+print("voce possui {}, o valor do dolar é: {}, o cambio é: {},". format(dolar,real,cambio))

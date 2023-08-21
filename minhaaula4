@@ -1,0 +1,5 @@
+lado_a = float(input("informe a medida do lado a: " ))
+lado_b = float(input("informe a medida do lado b: "))
+area = lado_a * lado_b
+perimetro= (2*lado_a)+(2*lado_b)
+print("A área do retângulo é: {}, o perimetro do retângulo é: {}, ". format (area, perimetro))

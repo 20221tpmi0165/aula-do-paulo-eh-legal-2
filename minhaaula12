@@ -1,0 +1,7 @@
+sf = float(input("informe o valor do salario fixo: "))
+vendas = float(input("quantos carros foram vendidos? "))
+vl_Uni = float(input("qual o valor de cada carro? "))
+val_Tven = vl_Uni*vendas
+comi=(5*vl_Uni)/100
+Sl_final= sf + comi + vendas+(5*val_Tven)/100
+print("O salário fixo é: {}, foram vendidos {} carros, o valo de cada carro é: {}, o valor total das veda é: {}, a comissão por cada carro é: {}, o valor total à receber é: {}". format (sf, vendas,vl_Uni,val_Tven,comi,Sl_final))

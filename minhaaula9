@@ -1,0 +1,6 @@
+maça = float(input("quantas maças você comprou? "))
+banana = float(input("quantos kilos de banana você comprou? "))
+unidade = 1.30
+baKg = 5.00
+valor_compra = (unidade*maça) + (baKg*banana)
+print("O valor total da compra foi: ", valor_compra)

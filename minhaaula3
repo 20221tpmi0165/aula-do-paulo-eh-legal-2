@@ -1,0 +1,8 @@
+ap=float(input("informe a altura da parede: "))
+lp=float(input("informe a largura da pare: "))
+a=float(input("informe a altura da parede: "))
+la=float(input("informe a altura do azulejo: "))
+area=ap*lp
+azulejo=a*la
+total = area * azulejo
+print("a area da cozinha é:{}, o tamanho do azulejo é: {}, e a quantidade de azulejo para a cozinha é: {},". format (area,azulejo,total))

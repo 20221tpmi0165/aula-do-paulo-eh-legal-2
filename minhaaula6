@@ -1,0 +1,4 @@
+raio = float(input("informe o valor do raio: "))
+volume = (4/3)*(3.14)*(raio)**3
+area=4*(3.14)*(raio)**2
+print("O volume da esfera é: {}, a área da esfera é: {},". format(volume,area) )
