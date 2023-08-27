@@ -1,0 +1,4 @@
+m = float(input("você pesa quantos kilos? " ))
+h = float(input("inform a medida de sua altura: "))
+imc = m/h**2
+print("o seu IMC é: {} ", imc )

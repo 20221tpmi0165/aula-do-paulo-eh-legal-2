@@ -1,0 +1,5 @@
+vc=float(input("informe o valor do carro na fabrica: "))
+perc=(28*vc)/100
+imp=(45*vc)/100
+vlfinCom = (vc+perc+imp)
+print("o valor do carro é: {}, o percentual do distribuidor é: {}, o imposto é: {}, o valor ao consumidor final é: {}".format(vc,perc,imp,vlfinCom))

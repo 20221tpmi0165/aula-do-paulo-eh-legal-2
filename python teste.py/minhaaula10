@@ -1,0 +1,6 @@
+nascimento=float(input("informe o ano do seu nascimento: "))
+ano=float(input("informe  o ano atual: "))
+idade=ano-nascimento
+mes=idade*12
+dias=idade*365
+print("Você tem {} anos e {} mes e {} dias de idade.".format(idade, mes, dias))

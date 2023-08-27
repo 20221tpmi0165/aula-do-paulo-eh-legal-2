@@ -1,0 +1,5 @@
+p1 = float(input("digite a primeira nota: "))
+p2 = float(input("digite a segunda nota: "))
+at = float(input("digite a nota da atividade: "))
+media = (4*p1)+(3*p2)+(2*at)/9
+print("A nota do primeiro semestre é: {}, a nota do segundo semestre é: {}, a nota da atividade é{}, sua média é: {},". format(p1,p2,at,media))

@@ -1,0 +1,5 @@
+s0 = float(input("digite a distancia inicial: "))
+v = float(input("digite a velocidade constante: "))
+t = float(input("digite o tempo percorrido: "))
+s = (s0)+(v*t)+(1/2)*(t)**2
+print("o espaço percorrido é:", s)
