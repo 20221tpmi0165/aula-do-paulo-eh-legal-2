@@ -1,0 +1,96 @@
+Estrutura_cond.py
+ 
+cond1.py
+num=float(input("digite um numero "))
+if num > 0:    
+    print ("O numero é positivo")
+elif num < 0:
+    print ("O numero é negativo")
+else:
+    print ("O numer é zero") 
+
+
+cond2.py
+
+num=float(input("digidte um numero "))
+if num % 2 == 0:
+    print(" o numero é par")
+else:
+    print("o numero é impar")
+
+
+cond3.py
+nome_aluno=input("digite o nome do aluno ")
+nota = float(input("informe a nota: "))
+if nota > 7:
+    print(nome_aluno, " foi aprovado")
+elif nota < 7:
+    print(nome_aluno, " foi reprova, estude mais")
+
+
+cond4.py
+ano = float(input("infome  o ano "))
+if ano % 4 == 0 and ano % 100 == 0 or ano % 400 == 0:
+
+    
+    print("é ano bixesto")
+else:
+    print("não é ano bixesto")
+
+
+cond5.py
+ladoA=float(input("digite a medida do lado A "))
+ladoB=float(input("digite a medida do lado B "))
+ladoC=float(input("digite a medida do lado C "))
+
+if ladoA == 60 and ladoB == 60 and ladoC == 60:
+    print("É triangulo equilátero")
+
+elif ladoA < ladoB and ladoC:
+    print("O triangulo é isolceles")
+elif ladoA != ladoB and ladoC:
+    print("É triangulo escaleno ")
+
+
+cond6.py
+idade = int(input("informe a sua idade "))
+if idade >= 18:
+    print("você é de maior, ja pode votar ")
+else :
+    print("é de menor, não pode votar ")
+
+
+cond7.py
+x = float(input("digite a coordenada x do ponto: "))
+y = float(input("digite a coordenada y do ponto: "))
+if x > 0 and y > 0:
+    print("Primeiro quadrante é a localização ")
+
+elif x < 0 and  y > 0:
+    print("Segundo quandrate é a localização ")
+
+elif x < 0 and y < 0:
+    print("Terceiro quandrante é a localizção ")
+
+elif x > 0 and y < 0:
+    print("Quarto quandrante é a localização ")
+
+
+cond8.py
+
+n1 = int(input("informe um numero "))
+n2 = int(input("digite mas um numero "))
+n3 = int(input("difite outro numero "))
+
+if n1 > n2 or n1 > n3:
+    print("numero 1 é o maior ")
+
+elif n2 > n1 or n2 > n3:
+        print("numero 2 é maior ")
+else:
+     print("numero 3 é o maior")
+
+
+
+cond8.py
+
