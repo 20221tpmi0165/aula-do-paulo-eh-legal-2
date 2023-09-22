@@ -1,0 +1,8 @@
+minha_lista = [2,10,3, 33, 80]
+
+maior_valor = max(minha_lista)
+
+menor_valor = min(minha_lista)
+
+print(f"O maior valor na lista é: {maior_valor}")
+print(f"O menor valor na lista é: {menor_valor}")
