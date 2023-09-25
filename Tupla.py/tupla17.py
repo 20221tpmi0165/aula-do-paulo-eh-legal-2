@@ -1,0 +1,5 @@
+popul_paises = ("Brasila 214.3", "EstadoUnidos 331.9 ", "china 1.412")
+população_maior = max(popul_paises)
+população_menor = min(popul_paises)
+print("o pais com maior população é {},".format(população_maior))
+print("o Pais com menro populaçao é {},".format(população_menor))
