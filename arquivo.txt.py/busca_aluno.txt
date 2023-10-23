@@ -1,0 +1,3 @@
+Nome:cristiano
+Idade:55
+Curso:tecnico

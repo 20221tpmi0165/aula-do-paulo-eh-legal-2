@@ -1,0 +1,9 @@
+nome:cristiano
+idade:55
+curso:curso
+nome:cristiano
+idade:55
+curso:curso
+nome:cristiano
+idade:55
+curso:curso

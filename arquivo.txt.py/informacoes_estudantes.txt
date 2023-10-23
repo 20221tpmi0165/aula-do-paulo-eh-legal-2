@@ -1,0 +1,6 @@
+nome:ana
+idade:60
+disciplina:tecnico
+nome:crsitaino
+idade:55
+disciplina:tecnico

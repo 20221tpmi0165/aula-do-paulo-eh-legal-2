@@ -1,0 +1,9 @@
+nome:cristiano
+idade:55
+curso:tecnico
+nome:ana
+idade:60
+curso:tecnico
+nome:franciele
+idade:25
+curso:tecnico
